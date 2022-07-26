@@ -2,8 +2,10 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
 
+//create our User model//
 class Category extends Model {}
 
+//define table columns and configuration//
 Category.init(
   {
     id:{
